@@ -34,7 +34,7 @@ class _FactoryMethodState extends State<FactoryMethod> {
         logistic = Road();
     }
 
-    final object = logistic.createTransport("");
+    final object = logistic.createTransport(null);
     print(object.deliver());
     final snackBar = SnackBar(content: Text(object.deliver()));
     ScaffoldMessenger.of(context).showSnackBar(snackBar);

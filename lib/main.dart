@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/factory_method/factory_method.dart';
+import 'package:flutter_app/abstract_factory/abstract_factory.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FactoryMethod(),
+      home: AbstractFactory(),
     );
   }
 }
