@@ -24,7 +24,7 @@ class _FactoryMethodState extends State<FactoryMethod> {
     super.dispose();
   }
 
-  void createTransport(String transport) {
+  void _createTransport(String transport) {
     Logistic logistic;
     switch (transport) {
       case "Sea":
@@ -52,13 +52,13 @@ class _FactoryMethodState extends State<FactoryMethod> {
           children: <Widget>[
             TextButton(
               onPressed: () {
-                createTransport("Road");
+                _createTransport("Road");
               },
               child: Text("Road"),
             ),
             TextButton(
               onPressed: () {
-                createTransport("Sea");
+                _createTransport("Sea");
               },
               child: Text("Sea"),
             ),

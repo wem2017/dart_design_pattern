@@ -23,7 +23,7 @@ class _AbstractFactoryState extends State<AbstractFactory> {
     super.dispose();
   }
 
-  void createButton(String? style) {
+  void _createButton(String? style) {
     Component component;
 
     switch (style) {
@@ -50,13 +50,13 @@ class _AbstractFactoryState extends State<AbstractFactory> {
           children: <Widget>[
             TextButton(
               onPressed: () {
-                createButton("Material");
+                _createButton("Material");
               },
               child: Text("Material Button"),
             ),
             TextButton(
               onPressed: () {
-                createButton("Cupertino");
+                _createButton("Cupertino");
               },
               child: Text("Cupertino Button"),
             ),
