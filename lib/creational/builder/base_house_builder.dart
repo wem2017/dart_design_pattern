@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/builder/house.dart';
-import 'package:flutter_app/builder/house_builder.dart';
+
+import 'house.dart';
+import 'house_builder.dart';
 
 class BaseHouseBuilder implements HouseBuilder {
   late House house;

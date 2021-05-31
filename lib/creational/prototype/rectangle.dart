@@ -1,4 +1,4 @@
-import 'package:flutter_app/prototype/shape.dart';
+import 'shape.dart';
 
 class Rectangle implements Shape {
   late int x;

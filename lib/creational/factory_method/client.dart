@@ -1,6 +1,6 @@
-import 'package:flutter_app/factory_method/logistic.dart';
-import 'package:flutter_app/factory_method/road.dart';
-import 'package:flutter_app/factory_method/sea.dart';
+import 'logistic.dart';
+import 'road.dart';
+import 'sea.dart';
 
 class Client {
   void createTransport() {

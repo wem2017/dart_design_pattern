@@ -1,6 +1,6 @@
-import 'package:flutter_app/abstract_factory/button.dart';
-import 'package:flutter_app/abstract_factory/checkbox.dart';
-import 'package:flutter_app/abstract_factory/component.dart';
+import 'button.dart';
+import 'checkbox.dart';
+import 'component.dart';
 
 class CupertinoStyle implements Component {
   @override

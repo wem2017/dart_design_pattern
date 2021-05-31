@@ -1,6 +1,6 @@
-import 'package:flutter_app/abstract_factory/component.dart';
-import 'package:flutter_app/abstract_factory/cupertino.dart';
-import 'package:flutter_app/abstract_factory/material.dart';
+import 'component.dart';
+import 'cupertino.dart';
+import 'material.dart';
 
 class Client {
   ///Make Material style

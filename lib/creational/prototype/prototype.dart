@@ -1,4 +1,4 @@
-import 'package:flutter_app/prototype/rectangle.dart';
+import 'rectangle.dart';
 
 class Client {
   void makePrototype() {
